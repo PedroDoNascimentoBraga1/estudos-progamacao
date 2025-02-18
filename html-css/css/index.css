@@ -1,0 +1,125 @@
+
+
+
+/* corpo todo */
+body {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;  
+    background-color: lightgray;
+    height: 100%;
+    margin: 0;
+}
+
+
+
+/* a maior div */
+#tudo {
+    width: 80%;  /* Define uma largura para o conteúdo */
+    max-width: 1100px;  /* Limita o tamanho máximo */
+    height: 100%;
+    min-height: 1000;
+    background-color: rgb(238, 238, 238);
+    justify-content: center;  /* Centraliza horizontalmente */
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Garante que o container ocupe toda a altura da tela */
+}
+
+
+
+/* Define uma largura para o conteúdo */
+#corpo {
+    padding: 20px;
+    flex: 1; /* Faz com que o conteúdo ocupe o espaço restante */
+
+}
+#corpo h1{
+    text-align: center;
+    padding: 1%;
+}
+
+
+
+/* Set1 */
+#set1 {
+    display: flex;
+    align-items: center;
+}
+
+#set1 h3 {
+    text-align: center;
+}
+
+#set1 img{
+    border-radius: 50px;
+    width: 50%;
+    height: 50%;
+    margin-left: 20px;
+}
+
+#set2 h3{
+    padding-left: 50px;
+}
+
+
+/* O topo do site */
+#cabecario {
+    background-color: rgb(75, 0, 146);
+    padding:10px ;
+    display: flex;
+    align-items: center;
+    box-shadow:0px 5px 5px    rgb(73, 73, 73);
+}
+
+#cabecario p {
+    margin: 0;
+}
+
+#cabecario h2 {
+    margin-left: 2%;
+}
+
+#cabecario #logoMARvel {
+    border-radius: 50%;
+    width: 60px;
+}
+
+#cabecario #menu {
+    display: flex;
+    text-decoration: none;
+    gap: 20px ;
+    position: absolute;
+    top: 45px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#cabecario #menu li , #cabecario #menu a {
+    text-decoration: none;
+    list-style: none;
+    color: rgb(255, 255, 255);
+    border-radius: 10%;
+
+}
+
+
+/* O rodapé do site */
+footer {
+    background-color: rgb(75, 0, 146);
+    margin: 0%;
+    text-align: center;
+    padding: 10px;
+    box-shadow:0px -1px 9px    rgb(0, 0, 0);
+
+
+}
+footer p {
+    margin: 0%;
+}
+
+footer a {
+    color: black;
+    text-decoration: none;
+}

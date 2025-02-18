@@ -1,0 +1,20 @@
+/*corpo*/
+#corpo {
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+}
+
+/* table corpo */
+
+table {
+    background-color: brown;
+    border-collapse: collapse;
+    margin-top: 10%;
+}
+
+table h3{
+    margin: 0%;
+    text-align: center;
+    border: 1px solid black; /* Define uma borda fina preta */
+}
